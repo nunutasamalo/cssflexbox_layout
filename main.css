@@ -1,0 +1,37 @@
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.navbar {
+    background-color: #222;
+    display: flex;  
+    justify-content: space-around;
+   align-items: center;   /* make the font int the middle verticalli */
+
+
+
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.navbar a:hover{
+    color: red;
+}
+.primari-icon{
+    height: 30px;
+    width: 30x;
+}
